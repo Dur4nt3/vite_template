@@ -36,7 +36,7 @@ The aim of this template is to allow you to quick start your React applications 
 
 - A "README.md" file
 
-- A ".gitignore" file with the "Node" preset
+- A ".gitignore" file with the default "Vite" preset for "React"
 
 - "package.json" and "package-lock.json" for the npm packages used in this repository
 
@@ -44,13 +44,19 @@ The aim of this template is to allow you to quick start your React applications 
 
 - An "main.jsx" file (under "./src")
 
+- An "App.jsx" file (under "./src")
+
+- A "modules" folder (under "./src")
+
 - An "index.html" file (root directory)
 
-- A "index.css" file (under "./src") with a pre-defined font-stack
+- A "index.css" file (under "./src") with a pre-defined font-stack and a fluid type scale
 
 - A CSS reset under "./src/assets/stylesheets"
 
 - An empty "fonts.css" file under "./src/assets/stylesheets"
+
+- An "assets" directory with various related subdirectories (under "./src")
 
 - ESLint with a configuration inspired by AirBnB's style guide
 
@@ -78,4 +84,4 @@ After utilizing this repository as the template for a selected repository all yo
 
 The above command will install all the npm packages used within the template.
 
-For there, nothing else is needed as the configuration are already included within the template.
+From there, nothing else is needed as the configuration are already included within the template.
