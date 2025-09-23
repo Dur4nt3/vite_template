@@ -30,6 +30,8 @@ The aim of this template is to allow you to quick start your React applications 
 
 [![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://react.dev/)
 
+[![Vitest](https://img.shields.io/badge/-Vitest-252529?style=for-the-badge&logo=vitest&logoColor=FCC72B)](https://vitest.dev/)
+
 ### Template Information
 
 **The following are included in the template:**
@@ -67,6 +69,8 @@ The aim of this template is to allow you to quick start your React applications 
 - Vite (used as build tool for React)
 
 - React
+
+- Vitest along with additional testing libraries
 
 ## Usage
 
