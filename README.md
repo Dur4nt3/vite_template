@@ -6,7 +6,7 @@ This a template repository for front-end development, specifically for React app
 
 The aim of this template is to allow you to quick start your React applications without the need to configure many tools and technologies.
 
-*Note: various configurations are opinionated and/or project-specific and may or may not need to be edited to fit your specific needs.*
+_Note: various configurations are opinionated and/or project-specific and may or may not need to be edited to fit your specific needs._
 
 **Packages are periodically updated to the LATEST version.**
 
@@ -24,6 +24,7 @@ The aim of this template is to allow you to quick start your React applications 
 [![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://react.dev/)
 [![Vitest](https://img.shields.io/badge/-Vitest-252529?style=for-the-badge&logo=vitest&logoColor=FCC72B)](https://vitest.dev/)
 [![Testing-Library](https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white)](https://testing-library.com/)
+[![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/)
 
 ### Template Information
 
@@ -33,35 +34,33 @@ The aim of this template is to allow you to quick start your React applications 
 
 - A ".gitignore" file with the default "Vite" preset for "React"
 
-- "package.json" and "package-lock.json" for the npm packages used in this repository
-
-- An "main.jsx" file (under "./src")
-
-- An "App.jsx" file (under "./src")
-
-- A "modules" folder (under "./src")
-
-- An "index.html" file (root directory)
-
-- A "index.css" file (under "./src") with a pre-defined font-stack and a fluid type scale
-
-- A CSS reset under "./src/assets/stylesheets"
-
-- An empty "fonts.css" file under "./src/assets/stylesheets"
-
 - ESLint with a configuration inspired by AirBnB's style guide
 
 - Prettier configured to not conflict with ESLint
 
-- A ".prettierignore" file to ensure to ignore various files that shouldn't be formatted
-
-- Vite (used as build tool for React)
+- Vite
 
 - React
 
 - Vitest
 
 - Testing Library (along with additional miscellaneous testing utilities)
+
+- React Router
+
+### A Note About React Router
+
+Depending on your project, you may not need React Router.
+If that is the case, seek commit "150357b" of this template to get an idea of how this template should look without React Router.
+The aforementioned commit does NOT include React Router.
+
+**Specifically, update the following:**
+
+1) Remove "router.jsx"
+
+2) Update "main.jsx" to match the aforementioned commit
+
+3) Update "./src/modules/routes/" to "./src/modules/components"
 
 ## Usage
 
