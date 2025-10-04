@@ -35,8 +35,6 @@ The aim of this template is to allow you to quick start your React applications 
 
 - "package.json" and "package-lock.json" for the npm packages used in this repository
 
-- A "src" directory and various related subdirectories
-
 - An "main.jsx" file (under "./src")
 
 - An "App.jsx" file (under "./src")
@@ -50,8 +48,6 @@ The aim of this template is to allow you to quick start your React applications 
 - A CSS reset under "./src/assets/stylesheets"
 
 - An empty "fonts.css" file under "./src/assets/stylesheets"
-
-- An "assets" directory with various related subdirectories (under "./src")
 
 - ESLint with a configuration inspired by AirBnB's style guide
 
