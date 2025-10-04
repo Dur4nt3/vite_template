@@ -51,7 +51,7 @@ _Note: various configurations are opinionated and/or project-specific and may or
 ### A Note About React Router
 
 Depending on your project, you may not need React Router.
-If that is the case, seek commit "150357b" of this template to get an idea of how this template should look without React Router.
+If that is the case, seek commit ["150357b"](https://github.com/Dur4nt3/vite_template/tree/150357b91ad75f2b154f66cda8fe6a8066e32886) of this template to get an idea of how this template should look without React Router.
 The aforementioned commit does NOT include React Router.
 
 **Specifically, update the following:**
