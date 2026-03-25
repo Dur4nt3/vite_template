@@ -1,11 +1,15 @@
 import { createBrowserRouter } from 'react-router';
 
-import App from './App.jsx';
+import Root from './modules/routes/root/Root';
+
+import ErrorPage from './modules/routes/error/ErrorPage';
 
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <App />,
+        element: <Root />,
+        errorElement: <ErrorPage />,
+        hydrateFallbackElement: <h1>Loading (WIP)</h1>
     },
 ]);
 
